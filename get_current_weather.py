@@ -1,6 +1,6 @@
 import requests
 
-api_key = '00e5c8b3458ae3178545a8a073848a3e' 
+api_key = 'api key' 
  
 lat = '55.6761' # Use the latitude of your desired location
 lon = '12.5683' # Use the longitude of your desired location
