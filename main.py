@@ -56,7 +56,7 @@ def get_weather_data(locations:dict, api_key: str) -> dict:
 
 
 
-api_key = '00e5c8b3458ae3178545a8a073848a3e' 
+api_key = 'api' 
 
 # A dictionary with the coordinates of 5 locations:
 
