@@ -17,13 +17,12 @@ A clean, fully automated ETL data pipeline built with Python and Google Cloud Pl
 - Data warehouse modeling (BigQuery)  
 - Dashboard creation in Looker Studio
 
----
+ 
 
 ## 🧰 Technologies
 
-- **Python 3.11**, Pandas  
-- **OpenWeather API**  
-- **Google Cloud Platform:**  
+- Python 3.11, Pandas  
+- Google Cloud Platform: 
   - Cloud Functions  
   - Cloud Storage  
   - BigQuery  
