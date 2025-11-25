@@ -28,6 +28,7 @@ The pipeline is fully serverless and orchestrated via Cloud Scheduler, showcasin
 - Data warehouse modeling in **BigQuery**  
 - Dashboard creation in **Looker Studio**  
 - Version control & CI practices with Git and GitHub  
+<img width="2000" height="1484" alt="323582538-0e3ec579-2ded-4067-8266-a08bb7de4ab5" src="https://github.com/user-attachments/assets/b0ab9855-935c-4d21-955a-ed9c6bfb0662" />
 
 ---
 
