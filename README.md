@@ -5,7 +5,7 @@ This project implements a fully automated ETL pipeline using Python and Google C
 Real-time weather data is retrieved from the OpenWeather API, transformed into structured formats, and stored in both Cloud Storage and BigQuery.  
 The pipeline is fully serverless and orchestrated via Cloud Scheduler, showcasing practical end-to-end data engineering: API integration, cloud execution, automation, warehousing, and dashboarding.
 
----
+ 
 
 ## 📌 Project Architecture
 **High-level pipeline flow:**
@@ -16,9 +16,8 @@ The pipeline is fully serverless and orchestrated via Cloud Scheduler, showcasin
 4. **Data Warehouse Loading** – Clean records inserted into BigQuery.  
 5. **Visualization** – BigQuery dataset connected to Looker Studio dashboards.
 
-> *(Insert an architecture diagram here if you have one.)*
-
----
+ 
+ 
 
 ## 🛠️ Skills Demonstrated
 - Automated API extraction  
@@ -42,7 +41,7 @@ The pipeline is fully serverless and orchestrated via Cloud Scheduler, showcasin
 - **Looker Studio**  
 - Git & GitHub  
 
----
+ 
 
 # Setup and Installation
 
@@ -53,10 +52,30 @@ Before running the project, ensure you have:
 - A **GCP account** with billing enabled or a free trial.  
   Required services: Cloud Functions, Cloud Storage, BigQuery, Cloud Scheduler.  
 
----
+ 
 
-## Configuration
+### Configuration
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/yourgithubusername/weather-data-etl-pipeline.git
+    Clone the repository git clone https://github.com/yourgithubusername/weather-data-etl-pipeline.git
+
+    Create a virtual environment python3 -m venv venv
+
+    Activate your virtual environment . venv/bin/activate
+
+    Install required Python libraries pip install -r requirements.txt
+
+    Set up settings.py
+
+    Set your OpenWeather API Key.
+    Configure service account files for Cloud Storage and BigQuery access. Instructions for setting up:
+        Cloud Storage Service Account
+        BigQuery Service Account
+    Set your GCP project ID and dataset ID.
+
+### Running the Project
+To execute the ETL pipeline, follow these steps:
+
+    API Data Extraction: Set up your API key and the service account files in settings.py.
+    Data Transformation and Storage: Run main.py to process the extracted data. You should have an active GCP account to store data in Cloud Storage and BigQuery
+    Automation: Deploy your script on Cloud Functions and create Cloud Scheduler job to fully automate and schedule the ETL process. Find more information here
+
